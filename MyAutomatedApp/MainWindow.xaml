@@ -1,0 +1,13 @@
+<Window x:Class="MyAutomatedApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Automation Configuration" Height="300" Width="400">
+    <Grid>
+        <StackPanel Margin="10">
+            <TextBox Name="MouseMoveXBox" PlaceholderText="Mouse Move X" />
+            <TextBox Name="MouseMoveYBox" PlaceholderText="Mouse Move Y" />
+            <TextBox Name="TextToTypeBox" PlaceholderText="Text to Type" />
+            <Button Name="StartButton" Content="Start Automation" Click="StartButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
