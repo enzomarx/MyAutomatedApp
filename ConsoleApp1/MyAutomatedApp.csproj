@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework> <!-- Ou outra versão do .NET que você estiver usando -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="InputSimulator" Version="1.0.0" /> <!-- Versão real será diferente -->
+  </ItemGroup>
+
+</Project>
